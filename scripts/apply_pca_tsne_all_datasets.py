@@ -25,9 +25,6 @@ os.makedirs(output_dir, exist_ok=True)
 
 for name, file in datasets.items():
     df = pd.read_excel(file)
-    if "timestamp" in df.columns:
-        df = df.drop(columns=["timestamp", "timestamp2", "source_file"], errors="ignore")
-
     features = df.drop(columns=["target"], errors="ignore")
     labels = df["target"] if "target" in df.columns else None
 
