@@ -8,7 +8,7 @@ This repository contains the full implementation of the research paper titled **
 ## 📂 Repository Structure
 
 - `datasets/`: Real-sample balanced datasets used for model training and evaluation.
-- `scripts/`: Python scripts for dataset preprocessing, feature engineering, and visualizations.
+- `scripts/`: Python scripts for feature engineering, and visualizations.
 - `results/`: Output metrics, confusion matrices, and SHAP visualizations.
 - `requirements.txt`: List of Python dependencies.
 
@@ -19,7 +19,6 @@ This repository contains the full implementation of the research paper titled **
 - Classification using Random Forest and XGBoost.
 - Explainability via SHAP (XGBoost) and Gini Index (Random Forest).
 - Dimensionality reduction using t-SNE and PCA.
-- Evaluation on the BGP Feature Extractor dataset.
 
 ## ⚙️ Installation
 
