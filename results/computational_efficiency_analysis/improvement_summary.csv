@@ -1,0 +1,9 @@
+Dataset,Model,Full_Features,Hybrid_Features,Train_Time_Improvement,Inference_Time_Improvement,Accuracy_Change,F1_Score_Change
+Class_1,Random Forest,48,25,-0.58%,2.70%,-0.41%,-0.48%
+Class_1,XGBoost,48,25,19.73%,40.07%,0.21%,0.22%
+Class_2,Random Forest,48,25,-1.04%,1.75%,-1.23%,-1.31%
+Class_2,XGBoost,48,25,20.82%,22.67%,-0.21%,-0.13%
+Class_3,Random Forest,48,25,-2.96%,0.27%,1.23%,1.23%
+Class_3,XGBoost,48,25,21.07%,36.06%,-1.03%,-0.98%
+Full_Dataset,Random Forest,48,25,-1.98%,9.48%,-0.68%,-0.68%
+Full_Dataset,XGBoost,48,25,25.75%,37.20%,-0.07%,-0.06%
